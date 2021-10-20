@@ -10,6 +10,8 @@ scalaVersion := "2.13.6"
 libraryDependencies += guice
 libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "5.0.0" % Test
 
+herokuAppName in Compile := "immense-bayou-02971"
+
 // Adds additional packages into Twirl
 //TwirlKeys.templateImports += "bheathcote.com.controllers._"
 
